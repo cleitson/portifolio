@@ -1,8 +1,9 @@
-import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='text-white flex justify-center items-center w-full h-screen'>
+      <h1>Home</h1>
+    </div>
   )
 }
 

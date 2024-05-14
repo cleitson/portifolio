@@ -1,8 +1,11 @@
-import React from 'react'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <div className='text-white flex justify-center items-center w-full h-screen'>
+      <h1>
+        Projects
+      </h1>
+    </div>
   )
 }
 
