@@ -7,3 +7,20 @@
 * {
   font-family: 'Inconsolata', monospace;
 }
+
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #8CB5BC; /* Cor do polegar da barra de rolagem */
+  border-radius: 5px; /* Arredondamento do polegar */
+  border: 4px solid transparent; /* Espaço ao redor do polegar */
+  background-clip: content-box; /* Para evitar que o fundo do polegar se estenda para o espaço de borda */
+}
+
+/* Estilizando a trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #070D0D; /* Cor da trilha da barra de rolagem */
+}
