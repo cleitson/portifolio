@@ -4,12 +4,12 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
-import Header from './components/Header'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
-    <div className='App bg-[#1a1a1a] w-full h-screen'>
+    <div className={`App bg-[#070D0D] text-white`}>
     <Header />
     <Routes>
       <Route path='/' element={<Home />} />
