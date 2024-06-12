@@ -1,9 +1,42 @@
+import { Link } from "react-router-dom"
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 function Home() {
+
   return (
-    <div className='text-white flex justify-center items-center w-full h-screen'>
-      <h1>Home</h1>
-    </div>
+    <section className="lg:h-screen w-full flex flex-col md:flex-row lg:flex-row items-center justify-between px-10  max-w-7xl mx-auto py-28">
+      <div className="text w-full lg:w-1/2 flex-col mb-10 ">
+        <h1 className="text-2xl lg:text-2xl">Meu nome é
+          <p className="text-6xl md:text-7xl lg:text-6xl font-semibold bg-clip-text text-[#5DBCCC]">Cleitson</p>
+        </h1>
+        <p className="lg:text-lg text-[#BEDADA] mt-4 font-medium max-w-xl">
+          Sou formado em Redes de Computadores pela UNIPLAN. Atualmente, estou aprimorando minhas habilidades como desenvolvedor web na <a href="https://www.betrybe.com/" target="_blank" className="underline hover:text-emerald-500">Trybe.</a>
+          <br></br>
+          Tenho me dedicado ao aprendizado e à aplicação prática de tecnologias de ponta no desenvolvimento de projetos.
+          No front-end, utilizo <u>HTML, CSS e React</u> para criar interfaces envolventes e responsivas. No back-end, aprofundo meu conhecimento em <u>Node com Express, ORM Sequelize e MySQL, empregando JavaScript e TypeScript.</u>
+        </p>
+        <div className="mt-10 flex items-center justify-center md:justify-start gap-10 mb-10">
+          <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="https://github.com/cleitson">
+            <Github size={35} />
+          </a>
+          <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="https://www.linkedin.com/in/cleitsonlima">
+            <Linkedin size={35} />            
+          </a>
+          <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="mailto:cleitson.ftw@gmail.com">
+            <Mail size={35} />
+          </a>
+        </div>
+        <div className="gap-2 flex items-center flex-col md:flex-row my-5">
+          <Link to={"/contact"} className="inline-flex items-center justify-center bg-[#8CB5BC] text-black hover:bg-[#BEDADA] h-11 rounded-md px-8 font-bold text-xl md:w-auto w-full">
+            Contact Me
+          </Link>
+          <Link to={"/projects"} className="inline-flex items-center justify-center bg-[#8CB5BC] text-black hover:bg-[#BEDADA] h-11 rounded-md px-8 font-bold text-xl md:w-auto w-full">
+            My Projects
+          </Link>
+        </div>
+      </div>
+      <img src="https://github.com/cleitson/cleitson/blob/main/image/computer-illustration.png?raw=true" alt="ilustração de um computador" />
+    </section>
   )
 }
 
