@@ -35,10 +35,10 @@ function Home() {
         </div>
         <div className="gap-2 flex items-center flex-col md:flex-row my-5">
           <Link to={"/contact"} className="inline-flex items-center justify-center bg-[#8CB5BC] text-black hover:bg-[#BEDADA] h-11 rounded-md px-8 font-bold text-xl md:w-auto w-full">
-            Contact Me
+            Contatos
           </Link>
           <Link to={"/projects"} className="inline-flex items-center justify-center bg-[#8CB5BC] text-black hover:bg-[#BEDADA] h-11 rounded-md px-8 font-bold text-xl md:w-auto w-full">
-            My Projects
+            Projetos
           </Link>
         </div>
       </div>
