@@ -7,7 +7,9 @@
 * {
   font-family: 'Inconsolata', monospace;
 }
-
+body { 
+  background-color: #070D0D;
+}
 ::-webkit-scrollbar {
   width: 12px; /* Largura da barra de rolagem */
 }

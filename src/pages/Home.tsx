@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom"
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { VscGithubAlt } from "react-icons/vsc";
+import { GoMail } from "react-icons/go";
+import computer from '../assets/computer-illustration.png'
 
 function Home() {
 
@@ -17,25 +21,28 @@ function Home() {
         </p>
         <div className="mt-10 flex items-center justify-center md:justify-start gap-10 mb-10">
           <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="https://github.com/cleitson">
-            <Github size={35} />
+            <VscGithubAlt size={35} />
           </a>
           <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="https://www.linkedin.com/in/cleitsonlima">
-            <Linkedin size={35} />            
+            <FaLinkedin size={35} />            
           </a>
           <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="mailto:cleitson.ftw@gmail.com">
-            <Mail size={35} />
+            <GoMail size={35} />
+          </a>
+          <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="https://wa.me/+5561994187777">
+            <FaWhatsapp size={35} />
           </a>
         </div>
         <div className="gap-2 flex items-center flex-col md:flex-row my-5">
           <Link to={"/contact"} className="inline-flex items-center justify-center bg-[#8CB5BC] text-black hover:bg-[#BEDADA] h-11 rounded-md px-8 font-bold text-xl md:w-auto w-full">
-            Contact Me
+            Contatos
           </Link>
           <Link to={"/projects"} className="inline-flex items-center justify-center bg-[#8CB5BC] text-black hover:bg-[#BEDADA] h-11 rounded-md px-8 font-bold text-xl md:w-auto w-full">
-            My Projects
+            Projetos
           </Link>
         </div>
       </div>
-      <img src="https://github.com/cleitson/cleitson/blob/main/image/computer-illustration.png?raw=true" alt="ilustração de um computador" />
+      <img src={computer} alt="ilustração de um computador" />
     </section>
   )
 }
