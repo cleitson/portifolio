@@ -3,6 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { VscGithubAlt } from "react-icons/vsc";
 import { GoMail } from "react-icons/go";
+import computer from '../assets/computer-illustration.png'
 
 function Home() {
 
@@ -41,7 +42,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <img src="https://github.com/cleitson/cleitson/blob/main/image/computer-illustration.png?raw=true" alt="ilustração de um computador" />
+      <img src={computer} alt="ilustração de um computador" />
     </section>
   )
 }
