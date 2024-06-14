@@ -28,7 +28,7 @@ function Contact() {
             <p>cleitson.ftw@gmail.com</p>
           </span>
         </div>
-        <form className="w-full h-full flex-col flex gap-5 bg-[#070D0D]" action="https://formsubmit.co/cleitson.ftw@email.com" method="POST">
+        <form className="w-full h-full flex-col flex gap-5 bg-[#070D0D]" action="https://formsubmit.co/cleitson.ftw@gmail.com" method="POST">
           <input type="text" className="flex h-10 w-full rounded-md border border-input bg-[#070D0D] px-3 py-2 text-sm focus-visible:ring-2 ring-offset-[#9AC8D0] focus-visible:ring-ring focus-visible:ring-offset-2" placeholder="Nome" name="name" required />
 
           <input type="email" className="flex h-10 w-full rounded-md border border-input bg-[#070D0D] px-3 py-2 text-sm focus-visible:ring-2 ring-offset-[#9AC8D0] focus-visible:ring-ring focus-visible:ring-offset-2" placeholder="Email" name="email" required />
