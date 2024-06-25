@@ -1,14 +1,28 @@
 import { DevIconsType } from '../types';
-import { TypescriptOriginal, ReactOriginal, JavascriptOriginal, Html5Original, Css3Original, TailwindcssOriginal, JavaOriginal } from 'devicons-react';
+import {
+  TypescriptOriginal,
+  ReactOriginal,
+  JavascriptOriginal,
+  Html5Original,
+  Css3Original,
+  TailwindcssOriginal,
+  NodejsOriginal,
+  MysqlOriginalWordmark,
+  DockerOriginalWordmark,
+  GitOriginal,
+} from 'devicons-react';
 
 const DevIcons: DevIconsType = {
-  Typescript: TypescriptOriginal,
   React: ReactOriginal,
+  Typescript: TypescriptOriginal,
   Javascript: JavascriptOriginal,
-  Html5: Html5Original,
-  Css3: Css3Original,
-  Tailwindcss: TailwindcssOriginal,
-  Java: JavaOriginal,
+  Html: Html5Original,
+  Css: Css3Original,
+  Tailwind: TailwindcssOriginal,
+  NodeJs: NodejsOriginal,
+  MySQL: MysqlOriginalWordmark,
+  Docker: DockerOriginalWordmark,
+  Git: GitOriginal,
 }
 
 export default DevIcons

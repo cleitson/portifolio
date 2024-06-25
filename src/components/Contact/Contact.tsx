@@ -5,19 +5,19 @@ import { GoMail } from "react-icons/go";
 
 function Contact() {
   return (
-    <section className='flex flex-col w-full h-full px-10 max-w-7xl mx-auto py-28 md:py-52'>
+    <section id="contact" className='flex flex-col w-full h-full px-10 max-w-7xl mx-auto py-28 md:py-52'>
       <h2 className="md:text-6xl text-5xl font-semibold mb-10 text-[#5DBCCC]">Contatos</h2>
       <div className="flex flex-col md:flex-row w-full gap-10">
         <div className="contacts w-full flex-col flex gap-5">
-          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl hover:scale-110 cursor-pointer" href="https://github.com/cleitson">
+          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl md:hover:scale-110 cursor-pointer" href="https://github.com/cleitson">
             <VscGithubAlt size={35} />
             <p>Github</p>
           </a>
-          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl hover:scale-110 cursor-pointer" href="https://www.linkedin.com/in/cleitsonlima">
+          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl md:hover:scale-110 cursor-pointer" href="https://www.linkedin.com/in/cleitsonlima">
             <FaLinkedin size={35} />
             <p>LinkedIn</p>
           </a>
-          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl hover:scale-110 cursor-pointer" href="https://wa.me/+5561994187777">
+          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl md:hover:scale-110 cursor-pointer" href="https://wa.me/+5561994187777">
             <FaWhatsapp size={35} />
             <p>(61) 99418-7777</p>
           </a>
