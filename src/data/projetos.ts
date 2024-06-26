@@ -1,4 +1,5 @@
 import { ProjetoType } from "../types"
+import img from "../assets/fam.png"
 
 export const Projetos: ProjetoType[] = [
   {
@@ -26,7 +27,7 @@ export const Voluntario: ProjetoType[] = [
     id: 1,
     title: 'Associação Beneficente A Força do Amor',
     description: 'Projeto de uma pagina para uma associação sem fins lucrativos que ajuda familias carentes.',
-    image: 'src/assets/fam.png',
+    image: img,
     stack: ['Html','Css','Javascript'],
     github: '',
     link: '',
