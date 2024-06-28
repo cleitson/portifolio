@@ -13,15 +13,6 @@ export type ProjetoType = {
   link?: string,
 }
 
-export type ExperienciaType = {
-  id: number,
-  title: string,
-  date: string,
-  company: string,
-  local?: string,
-  description: string,
-  competencies?: string
-};
 
 export type DevIconsType = {
   [key: string]: React.ComponentType<{ size?: number | string }>
