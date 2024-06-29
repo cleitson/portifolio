@@ -13,6 +13,12 @@ export type ProjetoType = {
   link?: string,
 }
 
+export type EmailData = {
+  name: string,
+  email: string,
+  message: string
+}
+
 
 export type DevIconsType = {
   [key: string]: React.ComponentType<{ size?: number | string }>
