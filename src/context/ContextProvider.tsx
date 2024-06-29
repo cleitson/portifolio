@@ -7,6 +7,7 @@ type ContextProviderProps = {
 
 function ContextProvider({ children }: ContextProviderProps) {
   const [nav, setNav] = useState<boolean>(false)
+  const [loading, setLoading] = useState<boolean>(false)
 
   const toggleNav = () => {
     setNav((prevState) => !prevState)
@@ -14,6 +15,8 @@ function ContextProvider({ children }: ContextProviderProps) {
 
   const values = {
     nav,
+    loading,
+    setLoading,
     toggleNav
   };
   

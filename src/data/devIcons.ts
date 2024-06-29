@@ -10,6 +10,7 @@ import {
   MysqlOriginalWordmark,
   DockerOriginalWordmark,
   GitOriginal,
+  ExpressOriginalWordmark,
 } from 'devicons-react';
 
 const DevIcons: DevIconsType = {
@@ -20,6 +21,7 @@ const DevIcons: DevIconsType = {
   Css: Css3Original,
   Tailwind: TailwindcssOriginal,
   NodeJs: NodejsOriginal,
+  Express: ExpressOriginalWordmark,
   MySQL: MysqlOriginalWordmark,
   Docker: DockerOriginalWordmark,
   Git: GitOriginal,

@@ -12,7 +12,7 @@ function Skills() {
             {Object.keys(DevIcons).map((stackName, index) => {
               const StackComponent = DevIcons[stackName];
               return <div key={index} className="flex flex-col items-center gap-2 m-5 md:hover:scale-110">
-                <StackComponent size={50} />
+                <StackComponent size={50} fill="#ffffff" />
                 <p className="text-xl">{stackName}</p>
               </div>;
             })}

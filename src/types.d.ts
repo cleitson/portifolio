@@ -1,5 +1,7 @@
 export type contextType = {
   nav: boolean,
+  loading: boolean,
+  setLoading:React.Dispatch<React.SetStateAction<boolean>>,
   toggleNav: () => void
 }
 
@@ -13,16 +15,13 @@ export type ProjetoType = {
   link?: string,
 }
 
-export type ExperienciaType = {
-  id: number,
-  title: string,
-  date: string,
-  company: string,
-  local?: string,
-  description: string,
-  competencies?: string
-};
+export type EmailData = {
+  name: string,
+  email: string,
+  message: string
+}
+
 
 export type DevIconsType = {
-  [key: string]: React.ComponentType<{ size?: number | string }>
+  [key: string]: React.ComponentType<props>
 }

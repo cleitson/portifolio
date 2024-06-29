@@ -12,12 +12,12 @@ function Header() {
 
     <header className='flex items-center md:gap-10 bg-[#162121] justify-around p-3 fixed w-full'>
       <Link to="home" spy={true} smooth={true} duration={500}>
-        <h1 className='text-2xl md:text-3xl hover:text-foreground hover:scale-110 transition-all'>{"<"}Cleitson{" />"}</h1>
+        <h1 className='text-2xl md:text-3xl hover:text-foreground hover:scale-110 transition-all cursor-pointer'>{"<"}Cleitson{" />"}</h1>
       </Link>
       <nav className='hidden text-white md:flex space-x-4 justify-center md:gap-10'>
-        <Link to="skills" spy={true} smooth={true} duration={500} className="text-xl hover:text-foreground hover:scale-125 transition-all">Habilidades</Link>
-        <Link to="projects" spy={true} smooth={true} duration={500} className="text-xl hover:text-foreground hover:scale-125 transition-all">Projetos</Link>
-        <Link to="contact" spy={true} smooth={true} duration={500} className="text-xl hover:text-foreground hover:scale-125 transition-all">Contato</Link>
+        <Link to="skills" spy={true} smooth={true} duration={500} className="text-xl hover:text-foreground hover:scale-125 transition-all cursor-pointer">Habilidades</Link>
+        <Link to="projects" spy={true} smooth={true} duration={500} className="text-xl hover:text-foreground hover:scale-125 transition-all cursor-pointer">Projetos</Link>
+        <Link to="contact" spy={true} smooth={true} duration={500} className="text-xl hover:text-foreground hover:scale-125 transition-all cursor-pointer">Contato</Link>
       </nav>
       <button className='md:hidden text-white p-2 rounded-md z-10' onClick={toggleNav}>
         {nav ? <XMarkIcon className="h-8 w-8 text-white" /> : <Bars3Icon className="h-8 w-8 text-white" />}
