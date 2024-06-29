@@ -1,5 +1,7 @@
 export type contextType = {
   nav: boolean,
+  loading: boolean,
+  setLoading:React.Dispatch<React.SetStateAction<boolean>>,
   toggleNav: () => void
 }
 
@@ -21,5 +23,5 @@ export type EmailData = {
 
 
 export type DevIconsType = {
-  [key: string]: React.ComponentType<{ size?: number | string }>
+  [key: string]: React.ComponentType<props>
 }
