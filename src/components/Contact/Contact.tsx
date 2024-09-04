@@ -22,12 +22,10 @@ function Contact() {
             <FaWhatsapp size={35} />
             <p>(61) 99418-7777</p>
           </a>
-          <span className='flex items-center w-full justify-left text-sm lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl hover:scale-110'>
-            <a target="_blank" referrerPolicy="no-referrer" href="mailto:cleitson.ftw@gmail.com">
-              <GoMail size={35} />
-            </a>
-            <p>cleitson.ftw@gmail.com</p>
-          </span>
+          <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full justify-left text-xl lg:text-2xl gap-5 font-bold px-8 py-4 bg-[#0D1E20] rounded-xl md:hover:scale-110 cursor-pointer" href="mailto:cleitson.ftw@gmail.com">
+          <GoMail size={35} />
+          <p>cleitson.ftw@gmail.com</p>
+          </a>
         </div>
         <FormContact />
       </div>

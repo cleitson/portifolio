@@ -9,7 +9,7 @@ export type ProjetoType = {
   id: number,
   title: string,
   description: string,
-  image: string,
+  image?: string,
   stack: string[],
   github?: string,
   link?: string,

@@ -9,10 +9,10 @@ type CardProps = {
 
 function ProjectsCard({ data }: CardProps) {
   return data.map((projeto) => (
-    <div className="flex flex-col justify-around flex-wrap md:w-96 gap-5 bg-[#0D1E20] p-3 rounded-xl md:hover:scale-110" key={projeto.id}>
+    <div className="flex flex-col justify-around flex-wrap md:w-[21rem] gap-5 bg-[#0D1E20] p-3 rounded-xl md:hover:scale-110" key={projeto.id}>
       <h2 className="text-2xl font-semibold text-center">{projeto.title}</h2>
-      <img className="rounded-xl shadow-xl w-96"
-        src={projeto.image} alt="imagem do projeto" />
+      {projeto.image && <img className="rounded-xl shadow-xl w-96"
+        src={projeto.image} alt="imagem do projeto" />}
       <div className="flex justify-evenly flex-wrap gap-3">
         {projeto.stack.map((stackName, index) => {
           const StackComponent = DevIcons[stackName];

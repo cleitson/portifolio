@@ -23,7 +23,7 @@ function Home() {
             Sou formado em Redes de Computadores pela UNIPLAN. Atualmente, estou aprimorando minhas habilidades como desenvolvedor web na <a href="https://www.betrybe.com/" target="_blank" className="underline hover:text-emerald-500">Trybe.</a>
             <br></br>
             Tenho me dedicado ao aprendizado e à aplicação prática de tecnologias de ponta no desenvolvimento de projetos.
-            No front-end, utilizo <u>HTML, CSS e React</u> para criar interfaces envolventes e responsivas. No back-end, aprofundo meu conhecimento em <u>Node com Express, ORM Sequelize e MySQL, empregando JavaScript e TypeScript.</u>
+            No front-end, utilizo <u>HTML, CSS e React</u> para criar interfaces envolventes e responsivas. No back-end, aprofundo meu conhecimento em <u>Node com Express, ORM Sequelize, Prisma e MySQL, empregando JavaScript e TypeScript.</u>
           </p>
           <div className="mt-10 flex items-center justify-center md:justify-start gap-10 mb-10">
             <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href="https://github.com/cleitson">
