@@ -36,5 +36,6 @@ export const Voluntario: ProjetoType[] = [
     description: 'Voluntariado remoto dedicado ao desenvolvimento de um website institucional responsivo e funcional para a FAM. Empregando ferramentas como HTML, CSS, JavaScript. Com este projeto, espera-se aumentar a visibilidade da ONG, facilitar o acesso a informações e serviços, e promover uma maior participação da comunidade. (Em desenvolvimento)',
     image: img,
     stack: ['Html','Css','Javascript', 'NodeJs'],
+    link: 'https://www.aforcadoamor.org.br/',
   },
 ]
