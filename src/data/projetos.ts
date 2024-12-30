@@ -27,6 +27,15 @@ export const Projetos: ProjetoType[] = [
     stack: ['NodeJs', 'Typescript', 'Docker', 'MySQL'],
     github: 'https://github.com/cleitson/gemini',
   },
+  {
+    id: 4,
+    title: 'Weather Api',
+    description: 'Este projeto é uma aplicação de previsão do tempo. Ele permite que o usuário buscar informações meteorológicas de diferentes cidades.',
+    image: 'https://raw.githubusercontent.com/cleitson/previsaoDoTempo/refs/heads/main/src/assets/WeatherApi.png',
+    stack: ['React','Typescript','Html','Css','Tailwind'],
+    github: 'https://github.com/cleitson/previsaoDoTempo',
+    link: 'https://previsao-do-tempo-smoky-mu.vercel.app/'
+  },
 ]
 
 export const Voluntario: ProjetoType[] = [
