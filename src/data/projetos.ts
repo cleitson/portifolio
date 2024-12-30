@@ -22,13 +22,6 @@ export const Projetos: ProjetoType[] = [
   },
   {
     id: 3,
-    title: 'Gemini',
-    description: 'Este projeto é um backend que tem como proposta ler uma imagem em base64 de uma conta seja água/gás e a IA Gemini vision consegue ler a quantidade consumida e salva em um banco de dados MySql. Possui rotas para enviar para leitura, listar por usuario, confirmar, e visualizar as imagens.',
-    stack: ['NodeJs', 'Typescript', 'Docker', 'MySQL'],
-    github: 'https://github.com/cleitson/gemini',
-  },
-  {
-    id: 4,
     title: 'Weather Api',
     description: 'Este projeto é uma aplicação de previsão do tempo. Ele permite que o usuário buscar informações meteorológicas de diferentes cidades.',
     image: 'https://raw.githubusercontent.com/cleitson/previsaoDoTempo/refs/heads/main/src/assets/WeatherApi.png',
@@ -36,6 +29,14 @@ export const Projetos: ProjetoType[] = [
     github: 'https://github.com/cleitson/previsaoDoTempo',
     link: 'https://previsao-do-tempo-smoky-mu.vercel.app/'
   },
+  {
+    id: 4,
+    title: 'Gemini',
+    description: 'Este projeto é um backend que tem como proposta ler uma imagem em base64 de uma conta seja água/gás e a IA Gemini vision consegue ler a quantidade consumida e salva em um banco de dados MySql. Possui rotas para enviar para leitura, listar por usuario, confirmar, e visualizar as imagens.',
+    stack: ['NodeJs', 'Typescript', 'Docker', 'MySQL'],
+    github: 'https://github.com/cleitson/gemini',
+  },
+  
 ]
 
 export const Voluntario: ProjetoType[] = [
