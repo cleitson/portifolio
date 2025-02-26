@@ -36,6 +36,14 @@ export const Projetos: ProjetoType[] = [
     stack: ['NodeJs', 'Typescript', 'Docker', 'MySQL'],
     github: 'https://github.com/cleitson/gemini',
   },
+  {
+    id: 5,
+    title: 'BeTalent',
+    description: 'Teste Técnico para Front-End que consiste em construir a visualização de uma tabela com dados que virão de uma API simulada, em json-server.',
+    image: 'https://github.com/cleitson/Desafio_BeMobile/blob/main/src/assets/BeTalentProject.png?raw=true',
+    stack: ['React','Typescript','Html','Css','Tailwind'],
+    github: 'https://github.com/cleitson/Desafio_BeMobile'
+  }
   
 ]
 
