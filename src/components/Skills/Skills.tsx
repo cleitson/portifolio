@@ -4,9 +4,9 @@ import imageCodeSkills from "../../assets/codeskillsimage.svg"
 function Skills() {
   return (
     <>
-      <section id="skills" className="lg:min-h-screen max-w-7xl mx-auto p-10  py-28">
-        <h2 className="md:text-6xl text-5xl font-semibold mb-10 text-[#5DBCCC]">Habilidades</h2>
-        <section className="flex flex-col lg:flex-row w-full items-center gap-5">
+      <section id="skills" className="lg:min-h-screen lg:w-4/5 mx-auto  p-5  py-28">
+        <h2 className="md:text-6xl text-5xl text-center font-semibold mb-10 text-[#5DBCCC]">Habilidades</h2>
+        <section className="flex flex-col xl:flex-row w-full items-center gap-5">
           <img src={imageCodeSkills} alt="ilustração de um computador" width={500} />
           <div className="flex justify-evenly flex-wrap">
             {Object.keys(DevIcons).map((stackName, index) => {

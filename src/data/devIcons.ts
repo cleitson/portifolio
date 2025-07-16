@@ -11,10 +11,13 @@ import {
   DockerOriginalWordmark,
   GitOriginal,
   ExpressOriginalWordmark,
+  NextjsOriginalWordmark,
+  PrismaOriginal,
 } from 'devicons-react';
 
 const DevIcons: DevIconsType = {
   React: ReactOriginal,
+  NextJs: NextjsOriginalWordmark,
   Typescript: TypescriptOriginal,
   Javascript: JavascriptOriginal,
   Html: Html5Original,
@@ -22,6 +25,7 @@ const DevIcons: DevIconsType = {
   Tailwind: TailwindcssOriginal,
   NodeJs: NodejsOriginal,
   Express: ExpressOriginalWordmark,
+  Prisma: PrismaOriginal,
   MySQL: MysqlOriginalWordmark,
   Docker: DockerOriginalWordmark,
   Git: GitOriginal,
