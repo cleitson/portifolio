@@ -1,5 +1,6 @@
 import { ProjetoType } from "../types"
-import img from "../assets/fam.webp"
+import famImg from "../assets/fam.webp"
+import nkImg from "../assets/NeriksonMinis.webp"
 
 export const Projetos: ProjetoType[] = [
   {
@@ -52,8 +53,19 @@ export const Voluntario: ProjetoType[] = [
     id: 1,
     title: 'Associação Beneficente A Força do Amor',
     description: 'Voluntariado remoto dedicado ao desenvolvimento de um website institucional responsivo e funcional para a FAM. Com este projeto, espera-se aumentar a visibilidade da ONG, facilitar o acesso a informações e serviços, e promover uma maior participação da comunidade.',
-    image: img,
+    image: famImg,
     stack: ['Html','Css','Javascript', 'NodeJs'],
     link: 'https://www.aforcadoamor.org.br/',
+  },
+]
+
+export const Freelancer: ProjetoType[] = [
+  {
+    id: 1,
+    title: 'Nerikson Minis',
+    description: 'Contribuí para o desenvolvimento do e-commerce nerikson.com, uma loja de miniaturas 3D, utilizando Next.js e TailwindCSS, componentes reutilizáveis em TypeScript e animações com SwipperJs.',
+    image: nkImg,
+    stack: ['NextJs','Tailwind','Typescript'],
+    link: 'https://nerikson.com',
   },
 ]

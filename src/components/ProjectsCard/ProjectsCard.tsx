@@ -16,7 +16,7 @@ function ProjectsCard({ data }: CardProps) {
       <div className="flex justify-evenly flex-wrap gap-3">
         {projeto.stack.map((stackName, index) => {
           const StackComponent = DevIcons[stackName];
-          return <StackComponent key={index} size={30} />;
+          return <StackComponent key={index} size={30} fill="#ffffff" />;
         })}
       </div>
       <p>{projeto.description}</p>
