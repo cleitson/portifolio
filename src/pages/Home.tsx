@@ -1,3 +1,4 @@
+import { type ReactElement } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { GoMail } from "react-icons/go";
@@ -11,7 +12,7 @@ import { GrGithub } from "react-icons/gr";
 
 function Home() {
 
-  function miniIcon(icon: JSX.Element, link: string) {
+  function miniIcon(icon: ReactElement, link: string) {
     return (
       <a target="_blank" referrerPolicy="no-referrer" className="hover:scale-110 cursor-pointer" href={link}>
         {<icon.type size={35} />}

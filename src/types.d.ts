@@ -1,7 +1,9 @@
+import type { ComponentType, Dispatch, SetStateAction } from 'react'
+
 export type contextType = {
   nav: boolean,
   loading: boolean,
-  setLoading:React.Dispatch<React.SetStateAction<boolean>>,
+  setLoading: Dispatch<SetStateAction<boolean>>,
   toggleNav: () => void
 }
 
@@ -23,5 +25,5 @@ export type EmailData = {
 
 
 export type DevIconsType = {
-  [key: string]: React.ComponentType<props>
+  [key: string]: ComponentType<{ size?: string | number, fill?: string }>
 }

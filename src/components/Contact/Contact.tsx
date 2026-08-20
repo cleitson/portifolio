@@ -1,3 +1,4 @@
+import { type ReactElement } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import FormContact from "../FormContact/FormContact";
@@ -7,7 +8,7 @@ import { GrGithub } from "react-icons/gr";
 
 function Contact() {
 
-  function miniCard(title: string, icon: JSX.Element, link: string) {
+  function miniCard(title: string, icon: ReactElement, link: string) {
     return (
       <a target="_blank" referrerPolicy="no-referrer" className="flex items-center w-full md:justify-left text-xl lg:text-2xl gap-5  px-2 md:px-8 py-4 bg-[#0D1E20] rounded-xl md:hover:scale-110 cursor-pointer" href={link}>
         {icon}
