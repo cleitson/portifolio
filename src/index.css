@@ -1,16 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @font-face {
   font-family: 'Inconsolata';
   src: local('Inconsolata'), url('./fonts/Inconsolata.ttf') format('truetype');
 }
 
-* {
-  font-family: 'Inconsolata', monospace;
-  color: #BEDADA;
-}
 
 html {
   scroll-behavior: smooth;
@@ -18,6 +12,8 @@ html {
 
 body {
   background-color: #070D0D;
+  font-family: 'Inconsolata', monospace;
+  color: #BEDADA;
 }
 
 ::-webkit-scrollbar {
