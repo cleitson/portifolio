@@ -1,24 +1,32 @@
-import ProjectsCard from "../ProjectsCard/ProjectsCard"
+import ProjectsCard from "../ProjectsCard/ProjectsCard";
 import { Projetos, Voluntario, Freelancer } from "../../data/projetos";
 
-
 function Projects() {
+  const allProjects = [...Freelancer, ...Voluntario, ...Projetos];
   return (
-    <section id="projects" className="lg:min-h-screen lg:w-4/5 mx-auto  p-5  py-28">
-      <h1 className="md:text-6xl text-5xl text-center font-semibold mb-12 text-[#5DBCCC]">Freelancer</h1>
-      <section className="flex flex-col flex-wrap justify-center lg:justify-start md:flex-row gap-10 mb-12">
-        <ProjectsCard data={Freelancer} />
-      </section>
-      <h1 className="md:text-6xl text-5xl text-center font-semibold mb-12 text-[#5DBCCC]">Voluntário</h1>
-      <section className="flex flex-col flex-wrap justify-center lg:justify-start md:flex-row gap-10 mb-12">
-        <ProjectsCard data={Voluntario} />
-      </section>
-      <h1 className="md:text-6xl text-5xl text-center font-semibold mb-12 text-[#5DBCCC]">Projetos</h1>
-      <section className="flex flex-col flex-wrap justify-center lg:justify-start md:flex-row gap-10 mb-12">
-        <ProjectsCard data={Projetos} />
-      </section>
+    <section
+      id="projects"
+      className="mx-auto max-w-7xl px-5 py-24 md:px-10 lg:px-8"
+    >
+      <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+        <div className="max-w-2xl">
+          <p className="font-code text-sm font-semibold tracking-[0.16em] text-[#63d5cc]">
+            03 — PROJETOS SELECIONADOS
+          </p>
+          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-white md:text-6xl">
+            Experiências construídas para funcionar.
+          </h2>
+        </div>
+        <p className="max-w-xs text-sm leading-relaxed text-[#8ea9a5]">
+          Uma seleção de trabalhos profissionais, voluntários e estudos
+          técnicos.
+        </p>
+      </div>
+      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <ProjectsCard data={allProjects} />
+      </div>
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

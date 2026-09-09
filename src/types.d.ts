@@ -1,4 +1,5 @@
-import type { ComponentType, Dispatch, SetStateAction } from 'react'
+import type { Dispatch, SetStateAction } from 'react'
+import type { IconType } from 'react-icons'
 
 export type contextType = {
   nav: boolean,
@@ -11,6 +12,7 @@ export type ProjetoType = {
   id: number,
   title: string,
   description: string,
+  category: 'Freelance' | 'Voluntariado' | 'Projeto pessoal',
   image?: string,
   stack: string[],
   github?: string,
@@ -25,5 +27,5 @@ export type EmailData = {
 
 
 export type DevIconsType = {
-  [key: string]: ComponentType<{ size?: string | number, fill?: string }>
+  [key: string]: IconType
 }
