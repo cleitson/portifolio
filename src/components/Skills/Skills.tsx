@@ -13,9 +13,10 @@ function Skills() {
         "Html",
         "Css",
         "Tailwind",
+        "Vite",
       ],
     },
-    { title: "Back-end", skills: ["NodeJs", "Express", "Prisma", "MySQL"] },
+    { title: "Back-end", skills: ["NodeJs", "Express", "Prisma", "MySQL", "PostgreSQL", "Python", "FastAPI"] },
     { title: "Ferramentas", skills: ["Docker", "Git"] },
   ];
   return (

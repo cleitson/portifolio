@@ -13,6 +13,10 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiPostgresql,
+  SiVite,
+  SiPython,
+  SiFastapi,
 } from 'react-icons/si';
 
 const DevIcons: DevIconsType = {
@@ -27,6 +31,10 @@ const DevIcons: DevIconsType = {
   Express: SiExpress,
   Prisma: SiPrisma,
   MySQL: SiMysql,
+  PostgreSQL: SiPostgresql,
+  Vite: SiVite,
+  Python: SiPython,
+  FastAPI: SiFastapi,
   Docker: SiDocker,
   Git: SiGit,
 }

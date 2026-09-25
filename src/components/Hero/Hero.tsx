@@ -3,7 +3,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { GoMail } from "react-icons/go";
 import { GrGithub } from "react-icons/gr";
-import { HiArrowDownRight, HiArrowUpRight } from "react-icons/hi2";
+import { HiArrowDownRight } from "react-icons/hi2";
+import { HiDownload } from "react-icons/hi";
 import computer from "../../assets/computer.webp";
 import curriculo from "../../assets/CleitsonLimaResume.pdf";
 
@@ -52,7 +53,7 @@ function Hero() {
             download
             className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-6 py-3 font-semibold text-[#e7f1ef] transition hover:border-[#63d5cc] hover:text-[#63d5cc]"
           >
-            Baixar currículo <HiArrowUpRight size={19} />
+            Baixar currículo <HiDownload size={19} />
           </a>
         </div>
         <div className="mt-10 flex items-center gap-3">
